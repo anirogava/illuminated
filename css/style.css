@@ -2,7 +2,7 @@
 .illuminated{
     font-weight: 900;
     font-size: 70px;
-    margin-top: 10.8px;
+    margin: 10.8px 0 37px 0;
 }
 .title{
     color: #36413E;
@@ -27,14 +27,13 @@
     left: 0;
     z-index: 30;
     width: 100%;
-    height: 100px;
 }
 .nav{
     display: flex;
     flex-wrap: wrap;
 }
 .nav-li{
-    margin: 40.5px 102px 0 0;
+    margin: 40.5px 102px 64px 0;
     font-size: 16px;
 }
 .nav-li:last-child{
@@ -44,7 +43,7 @@
     margin-top: 40.5px;
 }
 .fa-search{
-    margin-right: 18.3px;
+    margin-right: 39px;
 }
 .fab{
     margin-right: 8.2px;
@@ -54,6 +53,9 @@
 }
 .fa-facebook-f{
     margin-right: 12.8px;
+}
+.fa-facebook-f{
+    margin-right: 39px;
 }
 /* section1 */
 .section1{
@@ -111,4 +113,11 @@
     text-align: center;
     margin-bottom: 27px;
 
+}
+/* section2 */
+.section2{
+    background-color: #FAE8EB;
+    max-width: 895px;
+    width: 100%;
+    margin: 0 auto;
 }
