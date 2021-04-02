@@ -115,7 +115,7 @@
 
 }
 /* section2 */
-.section2{
+body{
     background-color: #FAE8EB;
 }
 .container3{
@@ -196,4 +196,15 @@
     font-size: 14px;
     text-decoration: underline;
     color: #7F7F7F;
+}
+.more-a{
+    color: #7F7F7F;
+
+}
+.line-1{
+    background-image: url(../img/Graphic\ Element\ Line.svg);
+    height: 277px;
+    width: 224px;
+    background-size: cover;
+    position: absolute;
 }
