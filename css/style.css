@@ -40,7 +40,7 @@
     margin-right: 36.3px;
 }
 .social{
-    margin-top: 40.5px;
+    margin: 40.5px 0 64px 0;
 }
 .fa-search{
     margin-right: 39px;
@@ -61,7 +61,7 @@
 .section1{
     background-image: url(../img/Banner\ Image.jpg);
     height: 855px;
-    margin-top: 100px;
+    margin-top: 122.5px;
     Background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -72,7 +72,7 @@
     width: 100%;  
     position: absolute;
     top: 85%;
-    left: 30%;
+    left: 25%;
 }
 .container2{
     border-style: solid;
@@ -117,7 +117,67 @@
 /* section2 */
 .section2{
     background-color: #FAE8EB;
+}
+.container3{
     max-width: 895px;
     width: 100%;
     margin: 0 auto;
+}
+.pic{
+    background-image: url(../img/WHM\ 1.jpg);
+    height: 498.5px;
+    background-size: cover;
+    max-width: 498.5px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 78.5px;
+    position: relative;
+}
+.section-title1{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 87px;
+    color: #36413E;
+    position: relative;
+}
+.section-title2{
+    font-size: 40px;
+    color: #36413E;
+    text-align: center;
+}
+.section-t-div{
+    background-color: #FFFFFF;
+    width: 407px;
+    position: absolute;
+    left: 530px;
+}
+.border{
+    border-style: solid;
+    border-color: #306B34;
+    width: 493px;
+    height: 493px;
+    position: absolute;
+    border-width: 3px;
+    left: 19px;
+    top: 21.5px;
+}
+.miller{
+    width: 482px;
+    background-color: #F9CFBC;
+}
+.box-title{
+    font-size: 40px;
+    color: #19381F;
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+.box1{
+    position: relative;
+}
+.anna{
+    position: absolute;
+    top: 94.5px;
+    left: 334px;
+
 }
