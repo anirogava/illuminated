@@ -186,7 +186,7 @@
     color: #7F7F7F;
     width: 300px;
     float: right;
-    margin: 31px 0 26px 0;
+    padding: 31px 0 26px 10px;
 }
 .clear{
     clear: both;
