@@ -179,5 +179,21 @@
     position: absolute;
     top: 94.5px;
     left: 334px;
-
+}
+.box-p{
+    font-size: 20px;
+    font-style: italic;
+    color: #7F7F7F;
+    width: 300px;
+    float: right;
+    margin: 31px 0 26px 0;
+}
+.clear{
+    clear: both;
+}
+.more{
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #7F7F7F;
 }
