@@ -60,6 +60,7 @@
 /* section1 */
 .section1{
     background-image: url(../img/Banner\ Image.jpg);
+    background-position: center center;
     height: 855px;
     margin-top: 122.5px;
     Background-size: cover;
@@ -119,20 +120,14 @@ body{
     background-color: #FAE8EB;
 }
 .container3{
-    max-width: 895px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    /* position: relative; */
 }
 .pic{
-    background-image: url(../img/WHM\ 1.jpg);
-    height: 498.5px;
-    background-size: cover;
-    max-width: 498.5px;
-    width: 100%;
-    background-repeat: no-repeat;
-    margin-top: 78.5px;
+    margin-top: 131px;
     position: relative;
+    z-index: 6;
 }
 .section-title1{
     font-size: 40px;
@@ -175,11 +170,14 @@ body{
 }
 .box1{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .anna{
     position: absolute;
-    top: 94.5px;
-    left: 334px;
+    top: 220px;
+    left: 350px;
+    z-index: 6;
 }
 .box-p{
     font-size: 20px;
@@ -210,7 +208,80 @@ body{
     background-repeat: no-repeat;
     position: absolute;
     left: 384.5px;
+    top: -5px;
+    z-index: 5;
 }
 .line-2{
     position: relative;
 }
+/* seconde box */
+.pic2{
+    float: right;
+    margin-top: 78.5px;
+    position: relative;
+    margin-top: 220px;
+    margin-right: 130px;
+    z-index: 6;
+}
+.border2{
+    border-style: solid;
+    border-color: #306B34;
+    width: 493px;
+    height: 493px;
+    position: absolute;
+    border-width: 3px;
+    left: -19px;
+    top: 21.5px;
+}
+.reynolds{
+    width: 482px;
+    background-color: #F9CFBC;
+}
+.kayla{
+    position: absolute;
+}
+ .box2-title{
+    font-size: 40px;
+    color: #19381F;
+    text-align: center;
+    padding: 18px 0 18px 0;
+}
+.box2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+.box-p2{
+    font-size: 20px;
+    font-style: italic;
+    color: #7F7F7F;
+    width: 300px;
+    float: right;
+    padding: 31px 0 26px 10px;
+}
+.more2{
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #7F7F7F;
+}
+.more-a2{
+    color: #7F7F7F;
+
+}  
+/* .line-1{
+    background-image: url(../img/Graphic\ Element\ Line.svg);
+    height: 277px;
+    width: 224px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 384.5px;
+    z-index: 5;
+}
+.line-2{
+    position: relative;
+}
+
