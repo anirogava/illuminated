@@ -336,24 +336,24 @@
 .img1{
     position: absolute;
     top: -92px;
-    left: 142px;
+    left: 202px;
     z-index: 1;
 }
 .img2{
     position: absolute;
     top: 280px;
-    left: 550px;
+    left: 610px;
     z-index: 2;
 }
 .img3{
     position: absolute;
-    left: 150px;
+    left: 210px;
     top: 710px;
     z-index: 3;
 }
 .img4{
     position: absolute;
-    left: 600px;
+    left: 660px;
     top: 1130px;
     z-index: 2;
 }
