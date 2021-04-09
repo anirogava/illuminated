@@ -486,3 +486,98 @@
 .click{
     color: #FFFFFF;
 }
+/* footer styles */
+.span-footer{
+    background-color: #F9CFBC;
+}
+.footer-title{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 110px;
+}
+.form{
+    flex-wrap: wrap;
+    max-width: 677px;
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-bottom: 110px;
+}
+.name,
+.mail,
+.button{
+    display: inline-block;
+}
+.name,
+.mail{
+    margin-right: 65px;
+}
+.input-wraper{
+    width: 194px;
+    padding: 15px 0 15px 12px;
+    border-color: #707070;
+}
+.input-wraper::placeholder{
+    color: #36413E;
+    font-size: 12px;
+    font-weight: 900;
+}
+.button{
+    max-width: 148px;
+    width: 100%;
+    background-color: #36413E;
+    font-size: 12px;
+    font-weight: 900;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer-wraper{
+    width: 100%;
+    background-color: #306B34;
+}
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around; 
+    padding-top: 29px;
+    padding-bottom: 32px;
+}
+.nav-f{
+    font-size: 10px;
+}
+
+.nav-fa{
+    color: #FFFFFF;
+}
+.privacy1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 71px;
+}
+.navigation{
+   display: flex;
+}
+.nav-f{
+    padding-right: 49px;
+}
+.soc-icon{
+    display: flex;
+    flex-direction: row;
+}
+.nav-p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 900;
+}
+.insta,
+.twit,
+.fb{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.insta,
+.twit{
+    padding-right: 24px;
+
+}
