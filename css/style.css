@@ -566,6 +566,7 @@
 .blog-div{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 85.5px;
     flex-wrap: wrap;
@@ -668,6 +669,23 @@
 .shop-div1{
     padding-bottom: 170px;
 }
-
+.shop-blog{
+    max-width: 250px;
+    width: 100%;
+}
+.price-img{
+    font-size: 25px;
+    color: #7F7F7F;
+    max-width: 217px;
+    width: 100%;
+    margin: 0 auto;
+}
+.price{
+    font-size: 20px;
+    color: #19381F;
+}
+.travel-blog1{
+    text-align: center;
+}
 
 
