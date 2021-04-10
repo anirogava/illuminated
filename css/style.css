@@ -148,6 +148,7 @@
     width: 407px;
     position: absolute;
     left: 530px;
+    z-index: 30;
 }
 /* section2 */
 .box1{
@@ -413,7 +414,6 @@
     background-color: #36413E;
     text-align: center;
     padding: 15px 0 25px; 
-
     position: absolute; 
     left: 0; 
     right: 0; 
@@ -687,5 +687,99 @@
 .travel-blog1{
     text-align: center;
 }
+/* about styles */
+.about-page{
+    background-image: url(../img/About/Banner\ Image.jpg);
+}
+.about-cont{
+    top: 103%;
+}
+.border3{
+    max-width: 645px;
+    width: 100%;
+    height: 457px;
+}
+.mission{
+    left: 550px;
+}
+.mission-title{
+    float: right;
+    margin-right: 53px;
+}
+.mission-line{
+    left: 475px;
+    top: -110px;
+}
+.mission-back{
+    background-image: url(../img/About/Line\ 12.svg);
+    max-width: 546px;
+    width: 100%;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 21%;
+    z-index: 1;
+}
+.paragraph-div{
+    position: relative;
+    width: 696px;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -350px;
+    text-align: center; 
+}
+.mission-p{
+    font-size: 20px;
+    color: #7F7F7F;
+    line-height: 25px;
+}
+.mission-p1{
+    margin-top: 46px;
+}
+.click-about{
+    max-width: 148px;
+    text-align: center;
+    width: 100%;
+    background-color: #36413E;
+    margin: 0 auto;
+    position: relative;
+    top: -300px;
+}
+.blog-click{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+.blog-about{
+    color: #FFFFFF;
+}
+a{
+    position: relative;
+    z-index: 10;
+}
+.about-back{
+    background-image: url(../img/About/PALM\ STRIP\ thin\ super.svg);
+    width: 100%;
+    height: 17.5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -265px;
+}
+.footer-about{
+    margin-top: 0;
+}
+/* contact styles */
+.contact-page{
+    background-image: url(../img/Contact/Banner\ Image.jpg);
+}
+.contact-cont{
+    top: 91%;
+    left: 23%;
+}
+
+
 
 
