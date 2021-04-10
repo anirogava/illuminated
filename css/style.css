@@ -349,14 +349,14 @@
 }
 .img3{
     position: absolute;
-    left: 210px;
-    top: 690px;
+    left: -420px;
+    top: 420px;
     z-index: 3;
 }
 .img4{
     position: absolute;
-    left: 660px;
-    top: 1110px;
+    left: 25px;
+    top: 830px;
     z-index: 2;
 }
 .travel{
@@ -447,9 +447,6 @@
     top: -600px;
     position: relative;
 }
-.shop.cont{
-    position: absolute;
-}
 .shop1{
     max-width: 250px;
     width: 100%;
@@ -471,12 +468,11 @@
     color: #7F7F7F;
 }
 .more1{
-    /* position: relative; */
     width: 148px;
     background-color: #36413E;
     margin: 0 auto;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding: 15px 0;
     margin-top: -400px;
 }
 .click1{
@@ -580,4 +576,106 @@
 .twit{
     padding-right: 24px;
 
+}
+/* blog-page styles */
+.blog-page{
+    background-image: url(../img/Blog/Banner\ Image1.jpg);
+}
+.blog1-cont{
+    top: 97%;
+}
+.blog-p{
+    padding-top: 16.5px;
+    padding-bottom: 35px;
+}
+.blog-post{
+    background-color: #FAE8EB;
+    width: 307px;
+    left: 590px;
+}
+.background-b{
+    background-image: url(../img/Blog/PALM\ STRIP\ thin.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 53.5px;
+    margin-top: 117px;
+    position: relative;
+}
+.pink{
+    max-width:1190px;
+    width: 100%;
+    background-color: #FAE8EB;
+    position: absolute;
+    top: 50%;
+    left: 11.8%;
+}
+.pink-t{
+    font-size: 40px;
+    color: #19381F;
+    margin: 13px 0 16px 15px;
+}
+.blog-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 85.5px;
+    flex-wrap: wrap;
+}
+.travel-line{
+    width: 190px;
+    height: 1px;
+    background-color: #36413E;
+    margin: 36.1px auto 17px;
+}
+.travel-blog{
+    width: 360px;
+    text-align: center;
+}
+.travel-img{
+    font-size: 40px;
+    color: #19381F;
+}
+.date{
+    font-size: 20px;
+    color: #19381F;
+    padding-top: 30px;
+}
+.travel-more{
+    width: 148px;
+    background-color: #36413E;
+    margin: 85px auto 60px;
+    text-align: center;
+}
+.btn-a{
+    color: #FFFFFF;
+}
+.click-btn{
+    font-size: 12px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.pink1{
+    max-width:1190px;
+    width: 100%;
+    background-color: #FAE8EB;
+    position: absolute;
+    top: 50%;
+}
+.pink-title{
+    margin-left: 113.1px;
+}
+/* shop styles */
+.shop-section{
+    background-image: url(../img/Shop/Banner\ Image.jpg);
+}
+.section5{
+  background-color: #FAE8EB;
+  
+}
+.shop-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
