@@ -400,65 +400,6 @@
     padding-bottom: 124px;
 }
 /* section4 */
-.section4{
-    background-color: #FAE8EB;
-    padding-bottom: 72px;
-}
-.line-12{
-    background-image: url(../img/Graphic\ Element\ Line.svg);
-    height: 277px;
-    width: 224px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 900px;
-}
-.line-13{
-    background-image: url(../img/Line\ 2.svg);
-    height: 277px;
-    width: 224px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 160px;
-    top: 130px;
-}
-.shop-title{
-    background-color: #FFFFFF;
-    max-width: 300px;
-    width: 100%;
-    position: relative;
-    left: 580px;
-    text-align: center;
-}
-.shop-t{
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    padding-top: 87px;
-    color: #36413E;
-    position: relative;
-}
-.shop-title3{
-    font-size: 40px;
-    color: #36413E;
-}
-.shop-title1{
-    top: -600px;
-    position: relative;
-}
-.shop1{
-    max-width: 250px;
-    width: 100%;
-}
-.container-shop {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    top: -520px;
-}
 .shop1-title{
     font-size: 30px;
     margin-top: 20px;
@@ -470,10 +411,17 @@
 .more1{
     width: 148px;
     background-color: #36413E;
-    margin: 0 auto;
     text-align: center;
-    padding: 15px 0;
-    margin-top: -400px;
+    padding: 15px 0 25px; 
+
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 6150px;
+    bottom: 0;
+
 }
 .click1{
     font-size: 12px;
@@ -671,11 +619,55 @@
 }
 .section5{
   background-color: #FAE8EB;
-  
 }
 .shop-div{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    margin-top: 111px;
+    padding-bottom: 141.5px;
 }
+.shop2{
+    max-width: 250px;
+    width: 100%;
+    z-index: 2;
+}
+.shop2:last-child{
+    margin-right: 0;
+}
+.shop-page{
+    background-color: #FFFFFF;
+}
+.line-14{
+    background-image: url(../img/Shop/Line\ 9.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 432px;
+    width: 100%;
+    height: 517px;
+    position: absolute;
+    left: 916px;
+    z-index: 1;
+}
+.line-15{
+    background-image: url(../img/Shop/Line\ 8.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 432px;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 1290px;
+    left: 60px;
+    z-index: 1;
+}
+.line-13{
+    top: 5825px;
+}
+.shop-div1{
+    padding-bottom: 170px;
+}
+
+
+
