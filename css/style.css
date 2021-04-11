@@ -835,7 +835,7 @@ a{
 }
 .form-div{
     background-color: #FFFFFF;
-    position: relative;
+    position: absolute;
 }
 .contact-line{
     background-image: url(../img/Shop/Line\ 9.svg);
@@ -845,21 +845,52 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 384.5px;
-    top: 30px;
+    left: 500px;
+    top: 100px;
     z-index: 5;
-}
-form{
-    position: relative;
-    z-index: 10;
 }
 .textarea{
     width: 447px;
     border-color: #707070;
     margin-bottom: 48px;
     margin-top: 36px;
-    display: relative;
+    display: block;
+    height: 195px;
+    border-style: solid;
 }
 .textarea::placeholder{
-    padding: 20px 0 159px 9px;
+    padding: 20px 0 0 9px;
+    font-size: 14px;
+    font-weight: 900;
+}
+form{
+    position: relative;
+    z-index: 10;
+}
+.form-div{
+
+}
+.form-contact{
+    left: 35%;
+    top: 100px;
+    display: inline-block;
+}
+.name1,
+.mail1{
+    margin-right: 55px;
+}
+.button1{
+    margin-top: 96px;
+}
+.container-submit{
+    max-width: 148px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contact-back1{
+    background-image: url(../img/Contact/PALM\ STRIP\ thin.svg);
+    height: 53.5px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
