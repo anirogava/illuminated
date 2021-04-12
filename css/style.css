@@ -6,7 +6,7 @@
     font-family: 'Vollkorn';
 }
 .illuminated:hover{
-    font-size: 72px;
+    font-size: 74px;
 }
 .title{
     color: #36413E;
@@ -32,12 +32,15 @@
     transition-duration: 1s;
 }
 .fa-shopping-bag:hover{
-    color: #FF3E30;
+    color: #176BEF;
     transition-duration: 1s;
 }
 .nav-a{
     font-size: 18px;
     color: #7F7F7F;
+}
+.active{
+    font-size: 22px;
 }
 .nav-a:after {
     position: absolute;
@@ -48,14 +51,14 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #aaa;
+    background: #7F7F7F;
     height: 1px;
   }
   .nav-a:hover:after {
     width: 100%;
 }
 .nav-a:hover{
-    font-size: 20px;
+    font-size: 22px;
 }
 .header{
     display: flex;
