@@ -3,7 +3,10 @@
     font-weight: 900;
     font-size: 70px;
     margin: 10.8px 0 37px 0;
-    font-family: 'Baloo 2';
+    font-family: 'Vollkorn';
+}
+.illuminated:hover{
+    font-size: 72px;
 }
 .title{
     color: #36413E;
@@ -12,9 +15,47 @@
     color: #36413E;
     font-size: 20px;
 }
+.fa-instagram:hover{
+    color: #bc2a8d;
+    transition-duration: 1s;
+}
+.fa-twitter:hover{
+    color:  #00acee;
+    transition-duration: 1s;
+}
+.fa-facebook-f:hover{
+    color: #28589c;
+    transition-duration: 1s;
+}
+.fa-search:hover{
+    color: #176BEF;
+    transition-duration: 1s;
+}
+.fa-shopping-bag:hover{
+    color: #FF3E30;
+    transition-duration: 1s;
+}
 .nav-a{
     font-size: 18px;
     color: #7F7F7F;
+}
+.nav-a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+  }
+  .nav-a:hover:after {
+    width: 100%;
+}
+.nav-a:hover{
+    font-size: 20px;
 }
 .header{
     display: flex;
@@ -34,6 +75,7 @@
 }
 .nav-li{
     margin: 40.5px 102px 64px 0;
+    font-family: 'Vollkorn';
 }
 .nav-li:last-child{
     margin-right: 36.3px;
@@ -95,6 +137,7 @@
     margin: 19px 87px 10.5px 86px;
     text-align: center;
     color: #19381F;
+    font-family: 'Philosopher';
 }
 .container-p{
     font-size: 20px;
@@ -102,6 +145,7 @@
     color: #7F7F7F;
     text-align: center;
     margin: 20px 94px 7px 97px;
+    font-family: 'Philosopher';
 }
 .story-a{
     font-size: 14px;
@@ -136,11 +180,13 @@
     color: #36413E;
     position: relative;
     z-index: 30;
+    font-family: 'Vollkorn';
 }
 .section-title2{
     font-size: 40px;
     color: #36413E;
     text-align: center;
+    font-family: 'Vollkorn';
 }
 .section-t-div{
     background-color: #FFFFFF;
@@ -176,6 +222,7 @@
     color: #19381F;
     text-align: center;
     padding: 18px 0 18px 0;
+    font-family: 'Vollkorn';
 }
 .anna{
     position: absolute;
@@ -190,6 +237,7 @@
     width: 300px;
     float: right;
     padding: 31px 0 26px 10px;
+    font-family: 'Philosopher';
 }
 .clear{
     clear: both;
@@ -199,6 +247,7 @@
     font-size: 14px;
     text-decoration: underline;
     color: #7F7F7F;
+    font-family: 'Philosopher';
 }
 .more-a{
     color: #7F7F7F;
@@ -255,6 +304,7 @@
     color: #19381F;
     text-align: center;
     padding: 18px 0 18px 0;
+    font-family: 'Vollkorn';
 }
 .box-p2{
     font-size: 20px;
@@ -262,11 +312,13 @@
     color: #7F7F7F;
     width: 300px;
     padding: 31px 0 26px 0;
+    font-family: 'Philosopher';
 }
 .more2{
     font-size: 14px;
     text-decoration: underline;
     color: #7F7F7F;
+    font-family: 'Philosopher';
 }
 .more-a2{
     color: #7F7F7F;
@@ -380,13 +432,14 @@
 .travel-t{
     color: #19381F;
     font-size: 40px;
+    font-family: 'Vollkorn';
 }
 .travel-l{
     width: 190px;
     height: 1px;
     background-color: #36413E;
     position: absolute;
-    left: 20%;
+    left: 50px;
 }
 .beauty{
     top: 200px;
@@ -404,6 +457,7 @@
     font-size: 30px;
     margin-top: 20px;
     color: #7F7F7F;
+    font-family: 'Philosopher';
 }
 .shop-a{
     color: #7F7F7F;
@@ -425,6 +479,7 @@
 .click1{
     font-size: 12px;
     font-weight: 900;
+    font-family: 'Vollkorn';
 }
 .click{
     color: #FFFFFF;
@@ -438,6 +493,7 @@
     font-style: italic;
     text-align: center;
     margin-top: 110px;
+    font-family: 'Vollkorn';
 }
 .form{
     flex-wrap: wrap;
@@ -466,6 +522,7 @@
     color: #36413E;
     font-size: 12px;
     font-weight: 900;
+    font-family: 'Vollkorn';
 }
 .button{
     max-width: 148px;
@@ -476,6 +533,7 @@
     color: #FFFFFF;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-family: 'Vollkorn';
 }
 .footer-wraper{
     width: 100%;
@@ -490,6 +548,7 @@
 }
 .nav-f{
     font-size: 10px;
+    font-family: 'Vollkorn';
 }
 
 .nav-fa{
@@ -514,6 +573,7 @@
     color: #FFFFFF;
     font-size: 12px;
     font-weight: 900;
+    font-family: 'Vollkorn';
 }
 .insta,
 .twit,
@@ -563,6 +623,7 @@
     font-size: 40px;
     color: #19381F;
     margin: 13px 0 16px 15px;
+    font-family: 'Vollkorn';
 }
 .blog-div{
     display: flex;
@@ -585,11 +646,13 @@
 .travel-img{
     font-size: 40px;
     color: #19381F;
+    font-family: 'Philosopher';
 }
 .date{
     font-size: 20px;
     color: #19381F;
     padding-top: 30px;
+    font-family: 'Philosopher';
 }
 .travel-more{
     width: 148px;
@@ -604,6 +667,7 @@
     font-size: 12px;
     font-weight: 900;
     padding: 15px 0;
+    font-family: 'Vollkorn';
 }
 .pink1{
     max-width:1190px;
@@ -679,11 +743,14 @@
     color: #7F7F7F;
     max-width: 217px;
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto 3px;
+    font-family: 'Philosopher';
+    
 }
 .price{
     font-size: 20px;
     color: #19381F;
+    font-family: 'Philosopher';
 }
 .travel-blog1{
     text-align: center;
@@ -735,6 +802,7 @@
     font-size: 20px;
     color: #7F7F7F;
     line-height: 25px;
+    font-family: 'Philosopher';
 }
 .mission-p1{
     margin-top: 46px;
@@ -750,6 +818,8 @@
 }
 .blog-click{
     font-size: 12px;
+    font-weight: 900;
+    font-family: 'Vollkorn';
     padding-top: 15px;
     padding-bottom: 17px;
 }
@@ -815,14 +885,18 @@ a{
     margin: 0 auto;
     height: 1px;
     background-color: #36413E;
+    margin-top: 36.1px;
 }
 .last-title{
     font-size: 40px;
     color: #19381F;
+    font-family: 'Philosopher';
+    margin: 15.9px 0 32px 0;
 }
 .last-link{
     color: #7F7F7F;
     font-size: 14px;
+    font-family: 'Philosopher';
 }
 .about-section{
     position: absolute;
@@ -860,6 +934,7 @@ a{
     padding: 20px 0 0 9px;
     font-size: 14px;
     font-weight: 900;
+    font-family: 'Vollkorn';
 }
 form{
     position: relative;
