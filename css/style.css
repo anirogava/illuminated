@@ -578,17 +578,19 @@
     font-size: 16px;
 }
 .insta:hover{
-color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 22px;
     transition-duration: 1s;
 }
 .twit:hover{
     color: #FFFFFF;
     font-size: 22px;
+    transition-duration: 1s;
 }
 .fb:hover{
     color: #FFFFFF;
     font-size: 22px;
+    transition-duration: 1s;
 }
 .insta,
 .twit{
