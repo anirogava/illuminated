@@ -7,6 +7,7 @@
 }
 .illuminated:hover{
     font-size: 74px;
+    transition-duration: 1s;
 }
 .title{
     color: #36413E;
@@ -15,29 +16,11 @@
     color: #36413E;
     font-size: 26px;
 }
-.fa-instagram:hover{
-    color: #bc2a8d;
+.social1:hover{
+    font-size: 24px;
+    color:#F9CFBC;
     transition-duration: 1s;
 }
-.fa-twitter:hover{
-    color:  #00acee;
-    transition-duration: 1s;
-}
-.fa-facebook-f:hover{
-    color: #28589c;
-    transition-duration: 1s;
-}
-.fa-search:hover{
-    color: #176BEF;
-    transition-duration: 1s;
-}
-.fa-shopping-bag:hover{
-    color: #176BEF;
-    transition-duration: 1s;
-}
-/* .social1:hover{
-    font-size: 26px;
-} */
 .nav-a{
     font-size: 18px;
     color: #7F7F7F;
@@ -62,6 +45,7 @@
 }
 .nav-a:hover{
     font-size: 22px;
+    transition-duration: 1s;
 }
 .header{
     display: flex;
@@ -552,6 +536,9 @@
     padding-top: 29px;
     padding-bottom: 32px;
 }
+.nav-f:hover{
+    font-size: 14px;
+}
 .nav-f{
     font-size: 10px;
     font-family: 'Vollkorn';
@@ -581,11 +568,27 @@
     font-weight: 900;
     font-family: 'Vollkorn';
 }
+.nav-p:hover{
+    font-size: 18px;
+}
 .insta,
 .twit,
 .fb{
     color: #FFFFFF;
     font-size: 16px;
+}
+.insta:hover{
+color: #FFFFFF;
+    font-size: 22px;
+    transition-duration: 1s;
+}
+.twit:hover{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.fb:hover{
+    color: #FFFFFF;
+    font-size: 22px;
 }
 .insta,
 .twit{
