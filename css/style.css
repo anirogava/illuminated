@@ -13,7 +13,7 @@
 }
 .social1{
     color: #36413E;
-    font-size: 20px;
+    font-size: 26px;
 }
 .fa-instagram:hover{
     color: #bc2a8d;
@@ -35,6 +35,9 @@
     color: #176BEF;
     transition-duration: 1s;
 }
+/* .social1:hover{
+    font-size: 26px;
+} */
 .nav-a{
     font-size: 18px;
     color: #7F7F7F;
@@ -77,11 +80,11 @@
     flex-wrap: wrap;
 }
 .nav-li{
-    margin: 40.5px 102px 64px 0;
+    padding: 40.5px 102px 64px 0;
     font-family: 'Vollkorn';
 }
 .nav-li:last-child{
-    margin-right: 36.3px;
+    padding-right: 36.3px;
 }
 .social{
     margin: 40.5px 0 64px 0;
