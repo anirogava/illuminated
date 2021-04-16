@@ -1,0 +1,156 @@
+@media (max-width:1125px){
+   .nav-li{
+    padding: 40.5px 50px 0 0;
+   }
+   .social{
+    margin: 40.5px 0 0 0;
+    }
+    .illuminated{
+        margin: 10.8px 0 0 0;
+    }
+    .container1{
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    .line3{
+        left: 450px;
+    }
+    .section1{
+        margin-top: 80.8px;
+    }
+    .section-t-div{
+        left: 400px;
+    }
+}
+@media (max-width:1022px){
+    .line3{
+        left: 400px;
+    }
+}
+@media (max-width:1001px){
+    .line-1,
+    .line3{
+        display: none;
+    }
+    .history{
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .box2{
+        display: flex;
+        position: relative;
+        flex-direction: row-reverse;
+    }
+    .box2-title{
+        font-size: 40px;
+        color: #19381F;
+        text-align: center;
+        padding: 18px 0 18px 0;
+    }
+    .kayla{
+        position: absolute;
+        top: 220px;
+        left: 350px;
+        z-index: 8;
+        margin-top: 0;
+        top: 96px;
+    }
+    .box-p2{
+        font-size: 20px;
+        width: 300px;
+        float: right;
+        padding: 31px 0 26px 10px;
+    }
+    .clear{
+        clear: both;
+    }
+    .more2{
+        text-align: center;
+        font-size: 14px;
+        text-decoration: underline;
+        color: #7F7F7F;
+        font-family: 'Philosopher';
+    }
+    .box1,
+    .box2,
+    .box3{
+        display: block;
+    }
+    .border2{
+        left: 22px;
+        top: 21.5px;
+    }
+    .box2{
+        margin-top: 150px;
+    }
+    .box3{
+        margin-top: 0;
+    }
+}
+@media (max-width:881px){
+    .anna,
+    .kayla{
+        position: static;
+        margin: 20px 0 0 15px;
+        text-align: center;
+    }
+    .more,
+    .more2{
+        text-align: unset;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column-reverse;
+        position: unset
+    }
+    .box-p,
+    .box-p2{
+        margin-right: 0;
+        float: unset;
+        margin-left: 100px;
+    }
+    .box1,
+    .box2{
+        max-width: 540px;
+        width: 100%;
+    }
+    .history{
+        max-width: 550px;
+        width: 100%;
+    }
+    .section-t-div{
+        left: 300px;
+    }
+}
+@media (max-width:825px){
+    .section-t-div{
+        position: unset;
+        margin: 0 auto;
+    }
+}
+@media (max-width:747px){
+    .container1{
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+    }
+    .title1{
+        font-size: 25PX;
+        width: unset;
+    }
+    .line{
+        width: 300px;
+        position: unset;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:731px){
+   
+
+}
