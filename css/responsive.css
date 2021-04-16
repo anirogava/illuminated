@@ -150,7 +150,21 @@
     }
 }
 
-@media (max-width:731px){
+@media (max-width: 540px){
+    .border,
+    .border2,
+    .border1{
+        left: 0;
+        top: 0;
+    }
+    .border{
+        width: 498.5px;
+        height: 498.5px;
+    }
+    .border2{
+        width: 502px;
+        height: 502px;
+    }
    
 
 }
