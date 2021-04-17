@@ -1,6 +1,7 @@
 @media (max-width:1125px){
    .nav-li{
     padding: 40.5px 50px 0 0;
+    margin-bottom: 40px;
    }
    .social{
     margin: 40.5px 0 0 0;
@@ -18,7 +19,7 @@
         left: 450px;
     }
     .section1{
-        margin-top: 80.8px;
+        margin-top: 98.5px;
     }
     .section-t-div{
         left: 400px;
@@ -143,7 +144,7 @@
         font-size: 25PX;
         width: unset;
     }
-    .line{
+    .line-box{
         width: 300px;
         position: unset;
         margin: 0 auto;
@@ -165,6 +166,77 @@
         width: 502px;
         height: 502px;
     }
-   
 
 }
+@media (max-width: 1005px){
+    .header1{
+        display: none;
+    }
+
+}
+@media (max-width: 1019px){
+    .header1{
+        display: none;
+    }
+    .wrapper{
+        display: block;
+    }
+    .wrapper, 
+    ul{
+      display: block;
+      text-align: center;
+    }   
+    .nav-a{
+      display: block;
+    }  
+    .social-icons{
+      display: flex;
+      justify-content: center; 
+    } 
+    .logo{
+      text-align: left;
+    }
+    .burger-icon{
+      color: #fff;
+      display: block;
+      font-size: 30px;
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      cursor:pointer;
+    }
+    .menu-ul,
+    .social-icons{
+      display: none;
+    }   
+    .menu-ul.open-menu{
+      display: block;
+    } 
+    .social-icons.open-socicon{
+      display: flex;
+    } 
+    .social2{
+        color: #36413E;
+        font-size: 18px;
+    }
+    .fa-search,
+    .fab,
+    .fa-facebook-f,
+    .fa-facebook-f{
+        margin-right: 30px;
+    }
+    .fab:last-child{
+        margin-right: none;
+    }
+    .nav-a2{
+        font-size: 18px;
+        color: #7F7F7F;
+    }
+    .nav-li2{
+        padding-bottom: 15px;
+        font-family: 'Vollkorn';
+    }
+    .section1{
+        margin-top: 100px;
+    }
+  }

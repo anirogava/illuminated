@@ -47,6 +47,7 @@
     font-size: 22px;
     transition-duration: 1s;
 }
+.header1,
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +114,7 @@
     background-color: #FFFFFF;
     margin: 16px;
 }
-.line{
+.line-box{
     position: absolute;
     background-color: #36413E;
     width: 498px;
@@ -976,4 +977,73 @@ form{
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/* buerger icon */
+.container{
+    display: none;
+}
+.nav-bar {
+	position: absolute;
+	background-color:  #306B34;
+	top: 0;
+	right: 100%;
+	height: 100vh;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.toggle {
+	left: 0;
+}
+/* listebis gastilva */
+.nav-list-item {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.nav-link {
+	color: #FFF;
+	font-size: 22px;
+	font-family: 'Vollkorn';
+	font-weight: 900;
+}
+
+/* Burger icon styles */
+.header-wraper{
+    background: #fff;
+    padding: 30px 0;
+    position: relative;
+}
+.wrapper{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-title{
+    color: #36413E;
+    padding: 7px 15px;
+    font-family: 'Vollkorn';
+    font-size: 40px;
+    font-weight: 900;
+}
+.fa-bars{
+    color: #36413E;
+}
+.social-icons,
+.menu-ul{
+    padding: 20px 0;
+    display: flex;
+    color: #36413E;
+}
+.burger-icon {
+    display: none;
+}
+.wrapper{
+    display: none;
 }
