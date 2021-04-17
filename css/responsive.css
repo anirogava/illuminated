@@ -149,6 +149,32 @@
         position: unset;
         margin: 0 auto;
     }
+    .container-p{
+        font-size: 15px;
+        margin: 5px auto;
+    }
+    .story-a{
+        font-size: 13px;
+    }
+    .title1{
+        font-size: 20px;
+    }
+    .line-box{
+        width: 200px;
+    }
+}
+@media (max-width: 360px){
+    .title1{
+        margin: 5px auto;
+        font-size: 15px;
+    }
+    .container-p{
+        font-size: 10px;
+    }
+    .story-a{
+        font-size: 8px;
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 540px){
@@ -241,6 +267,9 @@
       .wrapper{
           width: 100%;
       }
+      .pic2{
+          margin-right: 0;
+      }
       
   }
   @media (max-width: 520px){
@@ -259,6 +288,7 @@
       .anna,
       .kayla{
           width: 100%;
+          margin-left: 0;
       }
       .miller,
       .reynolds{
@@ -266,3 +296,13 @@
       }
 
   }
+  @media (max-width: 425px){
+      .section-t-div{
+          width: 100%;
+      }
+      .box-p,
+      .box-p2{
+          margin: auto;
+      }
+  }
+ 
