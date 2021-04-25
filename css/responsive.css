@@ -412,7 +412,7 @@
           height: 100%;
       }
       img{
-          width: 100%;
+          max-width: 100%;
       }
       .mission-title{
           float: unset;
@@ -426,5 +426,13 @@
       }
       .about-pic{
           margin-top: 100px;
+      }
+      .box-p{
+          float: unset;
+          margin: 0 auto;
+          text-align: center;
+      }
+      .mission1{
+          margin: 0 auto;
       }
   }
