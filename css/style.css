@@ -91,7 +91,7 @@
 }
 /* section1 */
 .section1{
-    background-image: url(../img/Banner\ Image.jpg);
+    background-image: url(../img/Banner\Image.jpg);
     background-position: center center;
     height: 855px;
     margin-top: 122.5px;
@@ -244,7 +244,7 @@
 
 }
 .line-1{
-    background-image: url(../img/Graphic\ Element\ Line.svg);
+    background-image: url(../img/GraphicElementLine.svg);
     height: 277px;
     max-width: 224px;
     width: 100%;
@@ -314,7 +314,7 @@
     color: #7F7F7F;
 } 
 .line3{
-    background-image: url(../img/Line\ 2.svg);
+    background-image: url(../img/Line2.svg);
     height: 277px;
     max-width: 224px;
     width: 100%;
@@ -354,21 +354,21 @@
     marging-top: 59px;
 }
 .blog-back{
-    background-image: url(../img/Blog\ Background\ Section\ 1.png);
+    background-image: url(../img/BlogBackgroundSection1.png);
     height: 321px;
     width: 100%;
     background-size: cover;
     margin-top: 151.5px
 }
 .blog-back2{
-    background-image: url(../img/Blog\ Background\ Section\ 2.png);
+    background-image: url(../img/BlogBackgroundSection2.png);
     height: 367.5px;
     width: 100%;
     background-size: cover;
     margin-top: 234.5px;
 }
 .blog-back3{
-    background-image: url(../img/Blog\ Background\ Section\ 3.png);
+    background-image: url(../img/BlogBackgroundSection3.png);
     height: 306px;
     width: 100%;
     background-size: cover;
@@ -599,7 +599,7 @@
 }
 /* blog-page styles */
 .blog-page{
-    background-image: url(../img/Blog/Banner\ Image1.jpg);
+    background-image: url(../img/Blog/BannerImage1.jpg);
 }
 .blog1-cont{
     top: 97%;
@@ -614,7 +614,7 @@
     left: 590px;
 }
 .background-b{
-    background-image: url(../img/Blog/PALM\ STRIP\ thin.svg);
+    background-image: url(../img/Blog/PALMSTRIPthin.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -692,7 +692,7 @@
 }
 /* shop styles */
 .shop-section{
-    background-image: url(../img/Shop/Banner\ Image.jpg);
+    background-image: url(../img/Shop/BannerImage.jpg);
 }
 .section5{
   background-color: #FAE8EB;
@@ -717,7 +717,7 @@
     background-color: #FFFFFF;
 }
 .line-14{
-    background-image: url(../img/Shop/Line\ 9.svg);
+    background-image: url(../img/Shop/Line9.svg);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 432px;
@@ -728,7 +728,7 @@
     z-index: 1;
 }
 .line-15{
-    background-image: url(../img/Shop/Line\ 8.svg);
+    background-image: url(../img/Shop/Line8.svg);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 432px;
@@ -768,7 +768,7 @@
 }
 /* about styles */
 .about-page{
-    background-image: url(../img/About/Banner\ Image.jpg);
+    background-image: url(../img/About/BannerImage.jpg);
 }
 .about-cont{
     top: 103%;
@@ -790,7 +790,7 @@
     top: -110px;
 }
 .mission-back{
-    background-image: url(../img/About/Line\ 12.svg);
+    background-image: url(../img/About/Line12.svg);
     max-width: 546px;
     width: 100%;
     height: 470px;
@@ -842,7 +842,7 @@ a{
     z-index: 10;
 }
 .about-back{
-    background-image: url(../img/About/PALM\ STRIP\ thin\ super.svg);
+    background-image: url(../img/About/PALMSTRIPthinsuper.svg);
     width: 100%;
     height: 17.5px;
     background-size: cover;
@@ -855,14 +855,14 @@ a{
 }
 /* contact styles */
 .contact-page{
-    background-image: url(../img/Contact/Banner\ Image.jpg);
+    background-image: url(../img/Contact/BannerImage.jpg);
 }
 .contact-cont{
     top: 91%;
     left: 23%;
 }
 .contact-back{
-    background-image: url(../img/About/Line\ 12.svg);
+    background-image: url(../img/About/Line12.svg);
     max-width: 546px;
     width: 100%;
     height: 470px;
@@ -921,7 +921,7 @@ a{
     position: absolute;
 }
 .contact-line{
-    background-image: url(../img/Shop/Line\ 9.svg);
+    background-image: url(../img/Shop/Line9.svg);
     height: 705.5px;
     max-width: 300px;
     width: 100%;
@@ -975,7 +975,7 @@ form{
     margin: 0 auto;
 }
 .contact-back1{
-    background-image: url(../img/Contact/PALM\ STRIP\ thin.svg);
+    background-image: url(../img/Contact/PALMSTRIPthin.svg);
     height: 53.5px;
     max-width: 100%;
     background-size: cover;
