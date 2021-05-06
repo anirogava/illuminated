@@ -456,7 +456,7 @@
     width: 148px;
     background-color: #36413E;
     text-align: center;
-    padding: 15px 0 15px; 
+    padding: 15px 0 25px; 
     position: absolute; 
     left: 0; 
     right: 0; 
@@ -951,13 +951,16 @@ form{
     position: relative;
     z-index: 10;
 }
-.form-div{
-
+.form-contact1{
+    left: 25%;
 }
 .form-contact{
-    left: 35%;
+    left: 25%;
     top: 100px;
     display: inline-block;
+}
+.form-contact2{
+    left: 50%;
 }
 .name1,
 .mail1{
@@ -1046,4 +1049,19 @@ form{
 }
 .wrapper{
     display: none;
+}
+.button2{
+    position: relative;
+    max-width: 148px;
+    width: 100%;
+    background-color: #36413E;
+    font-size: 12px;
+    font-weight: 900;
+    color: #FFFFFF;
+    padding: 8px 51px;
+    font-family: 'Vollkorn';
+}
+.submit1{
+    max-width: 148px;
+    width: 100%;
 }
