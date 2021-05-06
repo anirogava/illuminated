@@ -1065,3 +1065,8 @@ form{
     max-width: 148px;
     width: 100%;
 }
+/* hover animation */
+.travel-t:hover{
+    font-size: 45px;
+    transition-duration: 1s;
+}
